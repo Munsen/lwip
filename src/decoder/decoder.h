@@ -15,8 +15,8 @@
 extern "C" {
 #include "jpeglib.h"
 }
-#include <png.h>
-#include <zlib.h>
+#include "../lib/png/png.h"
+#include "../lib/zlib/zlib.h"
 #include <gif_lib.h>
 #include "CImg.h"
 

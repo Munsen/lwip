@@ -1,4 +1,3 @@
-
 /* pngstruct.h - header file for PNG reference library
  *
  * Last changed in libpng 1.6.18 [July 23, 2015]
@@ -27,7 +26,7 @@
    /* We must ensure that zlib uses 'const' in declarations. */
 #  define ZLIB_CONST
 #endif
-#include "zlib.h"
+#include "../zlib/zlib.h"
 #ifdef const
    /* zlib.h sometimes #defines const to nothing, undo this. */
 #  undef const

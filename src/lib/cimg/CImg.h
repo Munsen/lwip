@@ -353,7 +353,7 @@ extern "C" {
 // (see methods 'CImg[List]<T>::{load,save}_cimg()').
 #ifdef cimg_use_zlib
 extern "C" {
-#include "zlib.h"
+#include "../../lib/zlib/zlib.h"
 }
 #endif
 
